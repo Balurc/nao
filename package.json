@@ -38,6 +38,7 @@
 	},
 	"dependencies": {
 		"@pydantic/monty": "^0.0.7",
-		"depd": "^2.0.0"
+		"depd": "^2.0.0",
+		"sql-formatter": "^15.7.2"
 	}
 }
