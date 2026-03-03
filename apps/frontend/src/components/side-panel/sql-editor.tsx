@@ -10,7 +10,7 @@ export const SidePanelContent = ({ input, output }: { input: executeSql.Input; o
 			<ResizablePanel id='sql' minSize={100} className='relative w-full group'>
 				<div className='w-full h-full overflow-auto [&_span]:font-mono pl-2'>
 					<Editor
-						value={formatSQL(input.sql_query)}
+						value={formatSQL(input.sql_query, output.dialect)}
 						language='sql'
 						theme='light'
 						options={{
